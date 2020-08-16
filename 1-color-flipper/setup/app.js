@@ -7,3 +7,7 @@ btn.addEventListener("click", function(){
     // get random number between 0 - 3
     const rendomNumber;
 });
+
+function getRandomNumber() {
+  return Math.floor(Math.random() * colors.length);
+}
